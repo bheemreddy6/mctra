@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    padding: 0; margin: 0; font-family: 'Open Sans', sans-serif;
+}
+input, button, textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+.loginBox {
+    height: 290px;
+    width: 400px;
+    margin: 0px auto;
+    top:50%;
+    margin-top: -125px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+}
+.logo {
+    width: 239px;
+    height: 48px;
+    background: url('../img/logo.png');
+    margin:0px auto;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 70px;
+}
+.form {
+    background: #1F0068;
+    display: table;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 12px 16px -6px black;
+    -moz-box-shadow: 0 12px 16px -6px black;
+    box-shadow: 0 12px 16px -6px black;
+}
+.form label.welcome {
+    padding: 7px 0px;
+    color: #fff;
+    font-size: 20px;
+}
+.ipBlock {
+    position: relative;
+    display: table;
+}
+.ipBlock i {
+    position: absolute;
+    color: #4617B4;
+    font-size: 20px;
+    z-index: 999;
+    top: 15px;
+    left: 10px;
+}
+.form input[type=text], .form input[type=password] {
+    width: 364px;
+    padding: 7px;
+    margin: 7px 0px;
+    border: none;
+    color: #1F0068;
+    font-size: 13px;
+    line-height: 20px;
+    text-indent: 25px;
+}
+.forgotPass, .signUp label {
+    display: block;
+    float: left;
+    margin: 7px 0px;
+    color: #fff;
+    line-height: 25px;
+    font-size: 13px;
+}
+.signUp label {
+    color: #1F0068;
+    float: right;
+    margin-right: 10px;
+}
+.forgotPass:hover {
+    text-decoration: underline;
+}
+.form button, .signUp button {
+    float: right;
+    margin: 7px 0px;
+    background: #4617B4;
+    border: none;
+    color: #fff;
+    text-align: center;
+    width: 130px;
+    line-height: 25px;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+.form button:hover {
+    background: #fff;
+    color: #4617B4;
+}
+.remMe {
+    color: #fff;
+    font-size: 13px;
+    float: left;
+}
+.form input[type="checkbox"] {
+  float: left;
+  margin-right: 8px;
+}
+.signUp {
+    padding: 11px;
+}
+/*.form input[type="checkbox"]:checked:after, .form input[type="checkbox"]:after {
+  visibility: visible;
+  font-family: FontAwesome;
+  font-size:25px;height: 17px; width: 17px;
+  position: relative;
+  top: -3px;
+  left: 0px;
+  background-color:#FFF;
+  display: inline-block;
+}
+
+.form input[type="checkbox"]:checked:after {
+  content: '\f14a';
+}
+
+.form input[type="checkbox"]:after {
+  content: '\f096';
+}*/
